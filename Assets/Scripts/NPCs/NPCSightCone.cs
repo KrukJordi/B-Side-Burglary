@@ -10,8 +10,8 @@ public class NPCSightCone : MonoBehaviour
     float trueRadius;
     public float angle = 45;
 
-    public float suspiciounSpeed = .5f;
-    public float suspiciounLoss = .5f;
+    public float suspicionSpeed = 2f;
+    public float suspicionLoss = .5f;
 
     [Header("Values")]
 
@@ -71,7 +71,7 @@ public class NPCSightCone : MonoBehaviour
 
         Debug.Log(targetAngle);
 
-        suspicion *= 1 + suspiciounSpeed * Time.fixedDeltaTime * distanceAmplifier * Mathf.Sin((angle - targetAngle * 2) * 2 * Mathf.Deg2Rad);
+        suspicion *= 1 + suspicionSpeed * Time.fixedDeltaTime * distanceAmplifier * Mathf.Sin((angle - targetAngle * 2) * 2 * Mathf.Deg2Rad);
 
         interactor.OnSight();
     }

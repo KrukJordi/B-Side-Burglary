@@ -2907,8 +2907,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 7.5
   angle: 45
-  suspiciounSpeed: 1.5
-  suspiciounLoss: 0.5
+  suspicionSpeed: 2
+  suspicionLoss: 0.5
   suspicion: 1
   target: {fileID: 0}
   interactor: {fileID: 0}
