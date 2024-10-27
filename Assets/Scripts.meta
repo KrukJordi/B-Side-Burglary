@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/GogoGaga/OptimizedRopesAndCables/Example/Animation.meta
-guid: ac4b09b3d20f4de4a824bcf13502deea
-========
 guid: 0ea6e3f8284d1e047b035a4f04c843dd
->>>>>>>> origin/Playables:Assets/Scripts.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
