@@ -63,7 +63,7 @@ MonoBehaviour:
   - name: SmokeRate
     path: SmokeRate
     tooltip: 
-    space: 0
+    space: -1
     spaceable: 0
     sheetType: m_Float
     realType: Single
@@ -79,7 +79,7 @@ MonoBehaviour:
   - name: SmokeLifetime
     path: SmokeLifetime
     tooltip: 
-    space: 0
+    space: -1
     spaceable: 0
     sheetType: m_Float
     realType: Single
@@ -95,7 +95,7 @@ MonoBehaviour:
   - name: SmokeVelB
     path: SmokeVelB
     tooltip: 
-    space: 0
+    space: -1
     spaceable: 0
     sheetType: m_Vector3f
     realType: Vector3
@@ -111,7 +111,7 @@ MonoBehaviour:
   - name: SmokeVelA
     path: SmokeVelA
     tooltip: 
-    space: 0
+    space: -1
     spaceable: 0
     sheetType: m_Vector3f
     realType: Vector3
@@ -127,7 +127,7 @@ MonoBehaviour:
   - name: Fresnelpower
     path: Fresnelpower
     tooltip: 
-    space: 0
+    space: -1
     spaceable: 0
     sheetType: m_Float
     realType: Single
@@ -143,7 +143,7 @@ MonoBehaviour:
   - name: SmokeSizeRandom
     path: SmokeSizeRandom
     tooltip: 
-    space: 0
+    space: -1
     spaceable: 0
     sheetType: m_Float
     realType: Single
@@ -159,7 +159,7 @@ MonoBehaviour:
   - name: SizeoverLife
     path: SizeoverLife
     tooltip: 
-    space: 0
+    space: -1
     spaceable: 0
     sheetType: m_AnimationCurve
     realType: AnimationCurve
@@ -1401,7 +1401,7 @@ MonoBehaviour:
   raytracedScaleMode: 0
   needsOwnSort: 0
   needsOwnAabbBuffer: 0
-  shaderGraph: {fileID: -5475051401550479605, guid: 64881d0b10205b841bac3815954ed490,
+  shaderGraph: {fileID: -5475051401550479605, guid: 43f21836fcbc0304297bf224ffcebc34,
     type: 3}
   materialSettings:
     m_PropertyNames: []
@@ -1709,7 +1709,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Mesh, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"obj":{"fileID":-3214521003866156968,"guid":"0e65705aa3ffeda408836e42db215ec4","type":3}}'
+      m_SerializableObject: '{"obj":{"fileID":-3214521003866156968,"guid":"f81f1e1c0aa443441866b17b2a9d3fc9","type":3}}'
     m_Space: -1
   m_Property:
     name: mesh
