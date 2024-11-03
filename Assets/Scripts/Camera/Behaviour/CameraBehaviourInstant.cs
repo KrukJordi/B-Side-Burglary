@@ -17,9 +17,9 @@ public class CameraBehaviourInstant : CameraBehaviour
         {
             Gizmos.color = gizmoColor;
 
-            Gizmos.DrawLine(cameraObjData.position, cameraObjData.position + cameraObjData.forward * .5f);
-            Gizmos.DrawLine(cameraObjData.position + cameraObjData.forward * .5f, cameraObjData.position + cameraObjData.forward * .25f + cameraObjData.right * .1f);
-            Gizmos.DrawLine(cameraObjData.position + cameraObjData.forward * .5f, cameraObjData.position + cameraObjData.forward * .25f - cameraObjData.right * .1f);
+            Gizmos.DrawLine(cameraObjData.position, cameraObjData.position + cameraObjData.forward * 1f);
+            Gizmos.DrawLine(cameraObjData.position + cameraObjData.forward * 1f, cameraObjData.position + cameraObjData.forward * .5f + cameraObjData.right * .2f);
+            Gizmos.DrawLine(cameraObjData.position + cameraObjData.forward * 1f, cameraObjData.position + cameraObjData.forward * .5f - cameraObjData.right * .2f);
         }
     }
 
@@ -29,9 +29,9 @@ public class CameraBehaviourInstant : CameraBehaviour
         {
             Gizmos.color = new Color(1, 0.4f, 0);
 
-            Gizmos.DrawLine(cameraObjData.position, cameraObjData.position + cameraObjData.forward * .5f);
-            Gizmos.DrawLine(cameraObjData.position + cameraObjData.forward * .5f, cameraObjData.position + cameraObjData.forward * .25f + cameraObjData.right * .1f);
-            Gizmos.DrawLine(cameraObjData.position + cameraObjData.forward * .5f, cameraObjData.position + cameraObjData.forward * .25f - cameraObjData.right * .1f);
+            Gizmos.DrawLine(cameraObjData.position, cameraObjData.position + cameraObjData.forward * 1f);
+            Gizmos.DrawLine(cameraObjData.position + cameraObjData.forward * 1f, cameraObjData.position + cameraObjData.forward * .5f + cameraObjData.right * .2f);
+            Gizmos.DrawLine(cameraObjData.position + cameraObjData.forward * 1f, cameraObjData.position + cameraObjData.forward * .5f - cameraObjData.right * .2f);
         }
     }
 }
