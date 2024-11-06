@@ -106,7 +106,7 @@ public class CameraBehaviourSpline : MonoBehaviour, ICameraBehaviour
         return pointOne + lineNormUnamp * (dot * lineDistanceUnamp);
     }
 
-    public void UpdateCamera(Transform camera, Vector3 point)
+    public virtual void UpdateCamera(Transform camera, Vector3 point)
     {
         camera.position = point;
         camera.LookAt(objLookAt);
@@ -132,6 +132,8 @@ public class CameraBehaviourSpline : MonoBehaviour, ICameraBehaviour
             Vector3 lastPoint = cameraObjData[0].position;
             for (int i = 0; i < cameraObjData.Length; ++i)
             {
+                if (cameraObjData[i] == null) return;
+
                 Vector3 pos = cameraObjData[i].position;
 
                 Gizmos.DrawLine(lastPoint, pos);
@@ -156,6 +158,8 @@ public class CameraBehaviourSpline : MonoBehaviour, ICameraBehaviour
             Vector3 lastPoint = Amplify(cameraObjData[0].position) + basePoint;
             for (int i = 0; i < cameraObjData.Length; ++i)
             {
+                if (cameraObjData[i] == null) return;
+
                 Vector3 pos = Amplify(cameraObjData[i].position) + basePoint;
 
                 Gizmos.DrawLine(lastPoint, pos);

@@ -1,0 +1,17 @@
+{
+    "jog-m2l": {
+        "Version": "1.10.1822.1",
+        "Scene": {
+            "Name": true,
+            "SupportShaderSelect": true
+        },
+        "Export Directory": "C:/RLConverterServices/RLConverter/TempData/Convert/b04fedace207961b/JIC4f7b4fd4c43983965",
+        "Object": {
+            "jog-m2l": {
+                "Generation": "AccuRig",
+                "Physics": {},
+                "Meshes": {}
+            }
+        }
+    }
+}

@@ -46,8 +46,8 @@ public class CameraBehaviourLookAtPlayer : CameraBehaviour
             Gizmos.color = gizmoColor;
 
             Gizmos.DrawSphere(cameraObjData.position, .2f);
-            Gizmos.DrawLine(cameraObjData.position + cameraObjData.forward * .5f, cameraObjData.position + cameraObjData.forward * .25f + cameraObjData.right * .1f);
-            Gizmos.DrawLine(cameraObjData.position + cameraObjData.forward * .5f, cameraObjData.position + cameraObjData.forward * .25f - cameraObjData.right * .1f);
+            Gizmos.DrawLine(cameraObjData.position + cameraObjData.forward * .75f, cameraObjData.position + cameraObjData.forward * .25f + cameraObjData.right * .2f);
+            Gizmos.DrawLine(cameraObjData.position + cameraObjData.forward * .75f, cameraObjData.position + cameraObjData.forward * .25f - cameraObjData.right * .2f);
         }
     }
 
@@ -58,8 +58,8 @@ public class CameraBehaviourLookAtPlayer : CameraBehaviour
             Gizmos.color = new Color(1, 0.4f, 0);
 
             Gizmos.DrawSphere(cameraObjData.position, .2f);
-            Gizmos.DrawLine(cameraObjData.position + cameraObjData.forward * .5f, cameraObjData.position + cameraObjData.forward * .25f + cameraObjData.right * .1f);
-            Gizmos.DrawLine(cameraObjData.position + cameraObjData.forward * .5f, cameraObjData.position + cameraObjData.forward * .25f - cameraObjData.right * .1f);
+            Gizmos.DrawLine(cameraObjData.position + cameraObjData.forward * .75f, cameraObjData.position + cameraObjData.forward * .25f + cameraObjData.right * .2f);
+            Gizmos.DrawLine(cameraObjData.position + cameraObjData.forward * .75f, cameraObjData.position + cameraObjData.forward * .25f - cameraObjData.right * .2f);
         }
     }
 }

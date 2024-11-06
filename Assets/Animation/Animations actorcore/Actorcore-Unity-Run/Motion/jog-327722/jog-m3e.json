@@ -1,0 +1,17 @@
+{
+    "jog-m3e": {
+        "Version": "1.10.1822.1",
+        "Scene": {
+            "Name": true,
+            "SupportShaderSelect": true
+        },
+        "Export Directory": "C:/RLConverterServices/RLConverter/TempData/Convert/f1d82b331682e4dc/JIC9347795e0651c5858",
+        "Object": {
+            "jog-m3e": {
+                "Generation": "AccuRig",
+                "Physics": {},
+                "Meshes": {}
+            }
+        }
+    }
+}
