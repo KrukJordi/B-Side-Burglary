@@ -21,13 +21,14 @@ public class FootstepSounds : MonoBehaviour
 
     void Update()
     {
+        bool isRunning = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.Joystick1Button1);
+
+        // Check if character is grounded and moving
         if (characterController.isGrounded && characterController.velocity.magnitude > 0.1f)
         {
-            bool isRunning = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.Joystick1Button1);
-
-            // Adjust the step interval based on whether the player is running
             stepTimer -= Time.deltaTime;
 
+            // Play footstep sound based on interval and running state
             if (stepTimer <= 0)
             {
                 PlayFootstepSound(isRunning);
@@ -36,7 +37,8 @@ public class FootstepSounds : MonoBehaviour
         }
         else
         {
-            stepTimer = walkStepInterval; // Reset to walking interval
+            // Reset step timer when character stops moving or is not grounded
+            stepTimer = walkStepInterval;
         }
     }
 
@@ -51,4 +53,3 @@ public class FootstepSounds : MonoBehaviour
         }
     }
 }
-//code by Miguel Mensinga
