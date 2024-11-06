@@ -1,0 +1,17 @@
+{
+    "playful-stand-idle": {
+        "Version": "1.10.1822.1",
+        "Scene": {
+            "Name": true,
+            "SupportShaderSelect": true
+        },
+        "Export Directory": "C:/RLConverterServices/RLConverter/TempData/Convert/9fb9801f27748e48/JICed4127294287b94a2",
+        "Object": {
+            "playful-stand-idle": {
+                "Generation": "AccuRig",
+                "Physics": {},
+                "Meshes": {}
+            }
+        }
+    }
+}
